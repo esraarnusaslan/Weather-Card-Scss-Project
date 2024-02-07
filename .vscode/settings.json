@@ -1,0 +1,8 @@
+{
+    "scss.compileOnSave": true,
+    "scss.compilerOptions": {
+        "outputDir": "${workspaceFolder}/assets/css",
+        "sourceMap": true
+    },
+    "liveServer.settings.port": 5501
+}

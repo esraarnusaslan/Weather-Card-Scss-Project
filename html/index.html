@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card Scss Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/scss/style.css">
+</head>
+
+<body>
+
+
+    <section class="weather-card">
+
+        <!--   LEFT PANEL -->
+        <div class="left-panel">
+
+            <div class="date">
+                <h2>Sunday</h2>
+                <h4>07 February 2024</h4>
+                <h5><i class="fa-solid fa-location-dot"></i> Istanbul, TR</h5>
+            </div>
+
+            <div class="temp">
+                <h2><i class="fa-solid fa-sun"></i></h2>
+                <h3>29&deg;C</h3>
+                <h5>Sunny</h5>
+            </div>
+
+        </div>
+
+        <!--   RIGHT PANEL -->
+        <div class="right-panel">
+            <ul class="status">
+                <li> <span>PRECIPITATION</span> <span>0%</span></li>
+                <li> <span>humidity</span> <span>35%</span></li>
+                <li> <span>WIND</span> <span>0 km/h</span></li>
+            </ul>
+
+            <ul class="days">
+                <li>
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span>Monday</span>
+                    <span>29&deg;C</span>
+                </li>
+
+                <li>
+                    <span><i class="fa-solid fa-cloud-sun"></i></span>
+                    <span>Tue</span>
+                    <span>20&deg;C</span>
+                </li>
+
+                <li class="active">
+                    <span><i class="fa-solid fa-cloud-sun-rain"></i></span>
+                    <span>Wed</span>
+                    <span>23&deg;C</span>
+                </li>
+
+                <li>
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span>Thurs</span>
+                    <span>35&deg;C</span>
+                </li>
+
+            </ul>
+
+            <button class="btn-change"><i class="fa-solid fa-location-dot"></i> Change Location</button>
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
